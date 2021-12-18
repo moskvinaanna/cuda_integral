@@ -1,0 +1,5 @@
+﻿  Compiling CUDA source file Cuda.cu...
+  
+  C:\Users\Anna\source\repos\cuda\cuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86" -x cu   -I"C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.5\common\inc" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\include"  -G   --keep-dir Debug  -maxrregcount=0  --machine 32 --compile -cudart static  -g  -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /FdDebug\vc141.pdb /FS /Zi /RTC1 /MDd " -o Debug\Cuda.cu.obj "C:\Users\Anna\source\repos\cuda\cuda\Cuda.cu" 
+  Cuda.cu
+  cuda.vcxproj -> C:\Users\Anna\source\repos\cuda\Debug\cuda.exe
